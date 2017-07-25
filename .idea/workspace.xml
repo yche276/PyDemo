@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e9ee8db-d1dd-44b3-8c69-dd12336b1171" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParseXML.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadYAMLConfig.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ClassDemo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TypesAndOperations.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SqlDatabaseTest.py" afterPath="$PROJECT_DIR$/SqlDatabaseTest.py" />
     </list>
     <ignored path="GithubProject／PyDemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,8 +17,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/PyDemo$TestMySQL.coverage" NAME="TestMySQL Coverage Results" MODIFIED="1494405981243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PyDemo$Run_Demo.coverage" NAME="Run Demo Coverage Results" MODIFIED="1494406331044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyDemo$TestMySQL.coverage" NAME="TestMySQL Coverage Results" MODIFIED="1500809882262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyDemo$RunClassDemo.coverage" NAME="RunClassDemo Coverage Results" MODIFIED="1500812123551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyDemo$Run_Demo.coverage" NAME="Run Demo Coverage Results" MODIFIED="1500812075032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyDemo$Tpyes.coverage" NAME="Tpyes Coverage Results" MODIFIED="1500981888330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PyDemo$ReadYAML_Config.coverage" NAME="ReadYAML_Config Coverage Results" MODIFIED="1495968873445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PyDemo$ParseXML.coverage" NAME="ParseXML Coverage Results" MODIFIED="1495968129162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -41,11 +42,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ClassDemo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClassDemo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1041">
+              <caret line="62" column="7" lean-forward="false" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TypesAndOperations.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TypesAndOperations.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Demo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+            <state relative-caret-position="918">
+              <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
               <folding>
                 <element signature="e#37#47#0" expanded="true" />
                 <marker date="1494406329000" expanded="true" signature="306:313" ph="..." />
@@ -65,31 +88,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReadYAMLConfig.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadYAMLConfig.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ReadYAMLConfig.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -98,11 +111,14 @@
       <file leaf-file-name="SqlDatabaseTest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SqlDatabaseTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="28" selection-end-column="49" />
+            <state relative-caret-position="2664">
+              <caret line="150" column="34" lean-forward="false" selection-start-line="150" selection-start-column="34" selection-end-line="150" selection-end-column="34" />
               <folding>
-                <element signature="e#36#61#0" expanded="true" />
-                <marker date="1494326204000" expanded="true" signature="795:809" ph="SELECT * FRO... missing_value" />
+                <element signature="e#1207#1218#0" expanded="true" />
+                <marker date="1500809880000" expanded="true" signature="800:814" ph="SELECT * FRO... missing_value" />
+                <marker date="1500809880000" expanded="true" signature="5040:5092" ph="select * fro... store" />
+                <marker date="1500809880000" expanded="true" signature="5122:5136" ph="SELECT * FRO... missing_value" />
+                <marker date="1500809880000" expanded="true" signature="5122:5138" ph="SELECT * FRO... " />
               </folding>
             </state>
           </provider>
@@ -117,18 +133,25 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>dbconfig</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SqlDatabaseTest.py" />
         <option value="$PROJECT_DIR$/Demo.py" />
         <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/ParseXML.py" />
         <option value="$PROJECT_DIR$/config.yml" />
         <option value="$PROJECT_DIR$/ReadYAMLConfig.py" />
+        <option value="$PROJECT_DIR$/SqlDatabaseTest.py" />
+        <option value="$PROJECT_DIR$/ClassDemo.py" />
+        <option value="$PROJECT_DIR$/TypesAndOperations.py" />
       </list>
     </option>
   </component>
@@ -161,7 +184,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -188,9 +211,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PyDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PyDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SqlDatabaseTest.py" />
+              <option name="myItemType" value="com.jetbrains.python.projectView.PyFileNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MySQLPool" />
+              <option name="myItemType" value="com.jetbrains.python.projectView.PyElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,7 +251,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ReadYAML_Config">
+  <component name="RunManager" selected="Python.Tpyes">
     <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
       <method />
     </configuration>
@@ -472,11 +513,51 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <list size="4">
+    <configuration default="false" name="RunClassDemo" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GithubProject／PyDemo" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ClassDemo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Tpyes" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GithubProject／PyDemo" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TypesAndOperations.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.Run Demo" />
       <item index="1" class="java.lang.String" itemvalue="Python.TestMySQL" />
       <item index="2" class="java.lang.String" itemvalue="Python.ParseXML" />
       <item index="3" class="java.lang.String" itemvalue="Python.ReadYAML_Config" />
+      <item index="4" class="java.lang.String" itemvalue="Python.RunClassDemo" />
+      <item index="5" class="java.lang.String" itemvalue="Python.Tpyes" />
     </list>
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -528,15 +609,16 @@
     <frame x="0" y="23" width="2560" height="1373" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19062749" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32191235" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32191235" sideWeight="0.5015886" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32191235" sideWeight="0.49841145" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20333599" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -568,6 +650,194 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SqlDatabaseTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="34" column="43" lean-forward="false" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+          <folding>
+            <element signature="e#1207#1218#0" expanded="true" />
+            <marker date="1500809880000" expanded="true" signature="800:814" ph="SELECT * FRO... missing_value" />
+            <marker date="1500809880000" expanded="true" signature="5040:5092" ph="select * fro... store" />
+            <marker date="1500809880000" expanded="true" signature="5122:5136" ph="SELECT * FRO... missing_value" />
+            <marker date="1500809880000" expanded="true" signature="5122:5138" ph="SELECT * FRO... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#37#47#0" expanded="true" />
+            <marker date="1494406329000" expanded="true" signature="306:313" ph="..." />
+            <marker date="1494406329000" expanded="true" signature="313:390" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ParseXML.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadYAMLConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SqlDatabaseTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+          <folding>
+            <element signature="e#1207#1218#0" expanded="true" />
+            <marker date="1500809880000" expanded="true" signature="800:814" ph="SELECT * FRO... missing_value" />
+            <marker date="1500809880000" expanded="true" signature="5040:5092" ph="select * fro... store" />
+            <marker date="1500809880000" expanded="true" signature="5122:5136" ph="SELECT * FRO... missing_value" />
+            <marker date="1500809880000" expanded="true" signature="5122:5138" ph="SELECT * FRO... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#37#47#0" expanded="true" />
+            <marker date="1494406329000" expanded="true" signature="306:313" ph="..." />
+            <marker date="1494406329000" expanded="true" signature="313:390" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ParseXML.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadYAMLConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#37#47#0" expanded="true" />
+            <marker date="1494406329000" expanded="true" signature="306:313" ph="..." />
+            <marker date="1494406329000" expanded="true" signature="313:390" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ParseXML.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadYAMLConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -585,8 +855,11 @@
         <state relative-caret-position="414">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="28" selection-end-column="49" />
           <folding>
-            <element signature="e#36#61#0" expanded="true" />
-            <marker date="1494326204000" expanded="true" signature="795:809" ph="SELECT * FRO... missing_value" />
+            <element signature="e#1207#1218#0" expanded="true" />
+            <marker date="1500809880000" expanded="true" signature="800:814" ph="SELECT * FRO... missing_value" />
+            <marker date="1500809880000" expanded="true" signature="5040:5092" ph="select * fro... store" />
+            <marker date="1500809880000" expanded="true" signature="5122:5136" ph="SELECT * FRO... missing_value" />
+            <marker date="1500809880000" expanded="true" signature="5122:5138" ph="SELECT * FRO... " />
           </folding>
         </state>
       </provider>
@@ -608,8 +881,11 @@
         <state relative-caret-position="414">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="28" selection-end-column="49" />
           <folding>
-            <element signature="e#36#61#0" expanded="true" />
-            <marker date="1494326204000" expanded="true" signature="795:809" ph="SELECT * FRO... missing_value" />
+            <element signature="e#1207#1218#0" expanded="true" />
+            <marker date="1500809880000" expanded="true" signature="800:814" ph="SELECT * FRO... missing_value" />
+            <marker date="1500809880000" expanded="true" signature="5040:5092" ph="select * fro... store" />
+            <marker date="1500809880000" expanded="true" signature="5122:5136" ph="SELECT * FRO... missing_value" />
+            <marker date="1500809880000" expanded="true" signature="5122:5138" ph="SELECT * FRO... " />
           </folding>
         </state>
       </provider>
@@ -631,8 +907,11 @@
         <state relative-caret-position="483">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="28" selection-end-column="49" />
           <folding>
-            <element signature="e#36#61#0" expanded="true" />
-            <marker date="1494326204000" expanded="true" signature="795:809" ph="SELECT * FRO... missing_value" />
+            <element signature="e#1207#1218#0" expanded="true" />
+            <marker date="1500809880000" expanded="true" signature="800:814" ph="SELECT * FRO... missing_value" />
+            <marker date="1500809880000" expanded="true" signature="5040:5092" ph="select * fro... store" />
+            <marker date="1500809880000" expanded="true" signature="5122:5136" ph="SELECT * FRO... missing_value" />
+            <marker date="1500809880000" expanded="true" signature="5122:5138" ph="SELECT * FRO... " />
           </folding>
         </state>
       </provider>
@@ -654,8 +933,11 @@
         <state relative-caret-position="345">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="28" selection-end-column="49" />
           <folding>
-            <element signature="e#36#61#0" expanded="true" />
-            <marker date="1494326204000" expanded="true" signature="795:809" ph="SELECT * FRO... missing_value" />
+            <element signature="e#1207#1218#0" expanded="true" />
+            <marker date="1500809880000" expanded="true" signature="800:814" ph="SELECT * FRO... missing_value" />
+            <marker date="1500809880000" expanded="true" signature="5040:5092" ph="select * fro... store" />
+            <marker date="1500809880000" expanded="true" signature="5122:5136" ph="SELECT * FRO... missing_value" />
+            <marker date="1500809880000" expanded="true" signature="5122:5138" ph="SELECT * FRO... " />
           </folding>
         </state>
       </provider>
@@ -677,8 +959,11 @@
         <state relative-caret-position="437">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="28" selection-end-column="49" />
           <folding>
-            <element signature="e#36#61#0" expanded="true" />
-            <marker date="1494326204000" expanded="true" signature="795:809" ph="SELECT * FRO... missing_value" />
+            <element signature="e#1207#1218#0" expanded="true" />
+            <marker date="1500809880000" expanded="true" signature="800:814" ph="SELECT * FRO... missing_value" />
+            <marker date="1500809880000" expanded="true" signature="5040:5092" ph="select * fro... store" />
+            <marker date="1500809880000" expanded="true" signature="5122:5136" ph="SELECT * FRO... missing_value" />
+            <marker date="1500809880000" expanded="true" signature="5122:5138" ph="SELECT * FRO... " />
           </folding>
         </state>
       </provider>
@@ -700,8 +985,11 @@
         <state relative-caret-position="437">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="28" selection-end-column="49" />
           <folding>
-            <element signature="e#36#61#0" expanded="true" />
-            <marker date="1494326204000" expanded="true" signature="795:809" ph="SELECT * FRO... missing_value" />
+            <element signature="e#1207#1218#0" expanded="true" />
+            <marker date="1500809880000" expanded="true" signature="800:814" ph="SELECT * FRO... missing_value" />
+            <marker date="1500809880000" expanded="true" signature="5040:5092" ph="select * fro... store" />
+            <marker date="1500809880000" expanded="true" signature="5122:5136" ph="SELECT * FRO... missing_value" />
+            <marker date="1500809880000" expanded="true" signature="5122:5138" ph="SELECT * FRO... " />
           </folding>
         </state>
       </provider>
@@ -814,15 +1102,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demo.py">
+    <entry file="file://$PROJECT_DIR$/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-          <folding>
-            <element signature="e#37#47#0" expanded="true" />
-            <marker date="1494406329000" expanded="true" signature="306:313" ph="..." />
-            <marker date="1494406329000" expanded="true" signature="313:390" ph="..." />
-          </folding>
+        <state relative-caret-position="54">
+          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -834,17 +1117,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SqlDatabaseTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="28" selection-end-column="49" />
-          <folding>
-            <element signature="e#36#61#0" expanded="true" />
-            <marker date="1494326204000" expanded="true" signature="795:809" ph="SELECT * FRO... missing_value" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ParseXML.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -853,10 +1125,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.yml">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -864,8 +1136,52 @@
     <entry file="file://$PROJECT_DIR$/ReadYAMLConfig.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SqlDatabaseTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2664">
+          <caret line="150" column="34" lean-forward="false" selection-start-line="150" selection-start-column="34" selection-end-line="150" selection-end-column="34" />
+          <folding>
+            <element signature="e#1207#1218#0" expanded="true" />
+            <marker date="1500809880000" expanded="true" signature="800:814" ph="SELECT * FRO... missing_value" />
+            <marker date="1500809880000" expanded="true" signature="5040:5092" ph="select * fro... store" />
+            <marker date="1500809880000" expanded="true" signature="5122:5136" ph="SELECT * FRO... missing_value" />
+            <marker date="1500809880000" expanded="true" signature="5122:5138" ph="SELECT * FRO... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1041">
+          <caret line="62" column="7" lean-forward="false" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+          <folding>
+            <element signature="e#37#47#0" expanded="true" />
+            <marker date="1494406329000" expanded="true" signature="306:313" ph="..." />
+            <marker date="1494406329000" expanded="true" signature="313:390" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TypesAndOperations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
