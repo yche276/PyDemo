@@ -168,6 +168,10 @@ class MySQLPool(object):
             return res
 
 
+"""__name__ : Every module in Python has a special attribute called __name__. It is a built-in variable that returns the name of the module.
+    if it runs directly like python test.py __name__ will be __main__
+    if it is imported as a module, __main__ will be the module name
+"""
 if __name__ == "__main__":
     mysql_pool = MySQLPool(**dbconfig)
     # sql = "select * from store WHERE create_time < '2017-06-02'"
