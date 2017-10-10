@@ -45,6 +45,8 @@ print y
 # print (mean)
 # print ('mean = %f, aaaa = %d' % (mean, 10))
 
+# tests
+
 """
 #
 worker_data = ['http://google.com', 'http://yahoo.com', 'http://bing.com']
