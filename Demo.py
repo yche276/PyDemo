@@ -1,20 +1,31 @@
 # python 2.7
 # import MySQLdb as mdb
 import sys
-import Queue
-import threading
-import urllib2
+# from multiprocessing import Queue
+# import threading
+# import urllib2
 
 from multiprocessing.dummy import Pool as ThreadPool
 
 
-print 'Hello Python World'
+print('Hello Python World')
 
 x = set('abcde')
 y = set('bdxyz')
-print x
-print y
+print("x:{}".format(x))
 
+
+for item in x:
+    print(item)
+print("y:{}".format(y))
+
+print("Difference:{}".format(x-y))
+print("Union:{}".format(x|y))
+print("Intersection:{}".format(x&y))
+print("Symmetric difference XOR:{}".format(x^y))
+
+
+S = set({1,2,3})
 
 # print(sys.platform)
 # print(2 ** 100)
