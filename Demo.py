@@ -9,6 +9,13 @@ from multiprocessing.dummy import Pool as ThreadPool
 
 
 print 'Hello Python World'
+
+x = set('abcde')
+y = set('bdxyz')
+print x
+print y
+
+
 # print(sys.platform)
 # print(2 ** 100)
 # x = 'Spam!'
@@ -38,7 +45,8 @@ print 'Hello Python World'
 # print (mean)
 # print ('mean = %f, aaaa = %d' % (mean, 10))
 
-
+"""
+#
 worker_data = ['http://google.com', 'http://yahoo.com', 'http://bing.com']
 
 
@@ -66,4 +74,7 @@ thread_count = 5
 for i in range(thread_count):
     t = threading.Thread(target=worker, args = (q,))
     t.start()
+
+"""
+
 
